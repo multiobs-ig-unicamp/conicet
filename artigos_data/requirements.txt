@@ -1,0 +1,9 @@
+oss2
+requests
+beautifulsoup4
+tqdm
+selenium
+lxml
+pandas
+pyarrow
+webdriver-manager==4.0.2
