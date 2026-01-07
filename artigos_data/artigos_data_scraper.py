@@ -17,7 +17,7 @@ from selenium.webdriver.edge.service import Service as EdgeService
 # CONFIGURAÇÕES
 # -------------------------------------------------------------------------
 
-LOG_DIR = "arq_articulos_authors/logs"
+LOG_DIR = "saida_arq_articulos_authors/logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
 logging.basicConfig(
@@ -28,7 +28,7 @@ logging.basicConfig(
 
 PARQUET_FILE = "arq_articulos_authors/articulos.parquet"
 CHECKPOINT_FILE = "arq_articulos_authors/execucao_checkpoint.txt"
-LINKS_FILE = "artigos_links/arq_articulo_link/links_coletados.txt"
+LINKS_FILE = "saida_arq_articulo_link/links_coletados.txt"
 
 # -------------------------------------------------------------------------
 # FUNÇÃO PARA INICIAR DRIVER LOCAL (sem webdriver_manager)

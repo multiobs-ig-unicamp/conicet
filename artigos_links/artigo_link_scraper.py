@@ -22,7 +22,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.edge.service import Service as EdgeService
 
 # ---------- CONFIG ----------
-OUTPUT_DIR = "arq_articulo_link"
+OUTPUT_DIR = "saida_arq_articulo_link"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 LINKS_FILE = os.path.join(OUTPUT_DIR, "links_coletados.txt")
